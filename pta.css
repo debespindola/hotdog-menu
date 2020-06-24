@@ -1,0 +1,139 @@
+body{
+  margin: 0;
+  background-color: #E5E5E5;
+  font-family: Montserrat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header-elements{
+  display: flex;
+  width: 1250px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu {
+  font: Bold 32px/39px Montserrat;
+  font-size: 20px;
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  background-color: #F4F4F4;
+  box-shadow: 0px 10px 10px #00000069;
+  border: none;
+  justify-content: flex-end;
+  transition-duration: 0.4s;
+  cursor: pointer;
+
+}
+.menu:hover {
+  background-color:  black; 
+  color: white;
+}
+
+.logo {
+  width: 350px;
+  justify-content: flex-start;
+}
+
+main{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.container{
+  width: 1250px;
+  justify-content: space-between;
+}
+
+h1{
+  font-size: 30px;
+}
+
+.hotdog-images{
+  width: 218px;
+  height: 157px;
+  margin-right: 30px;
+}
+
+.image-text{
+  display: flex;
+}
+
+.product-information {
+  display: flex;
+  flex-direction: column;
+  width: 800px;
+  height: 160px;
+  justify-content: space-between;
+}
+
+.menu-hotdog{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+h2{
+  font-size: 26px;
+  margin-bottom: 0;
+}
+
+p{
+  margin-top: 0;
+}
+
+.description{
+  width: 700px;
+  height: 20px;
+  flex-wrap: wrap;
+  font-size: 20px;
+}
+
+.price{
+  font: Bold 32px/39px Montserrat;
+  margin: 0;
+}
+
+.order-button{
+  font-size: 20px;
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  color: white;
+  box-shadow: 0px 10px 10px #00000069;
+  background-color: #F9C202;
+  border: none;
+  transition-duration: 0.2s;
+  cursor: pointer;
+}
+
+.order-button:hover{
+  width: 210px;
+  height: 60px;
+}
+
+hr{
+  border: 0;
+	border-top: 1px solid #707070;
+}
+
+footer{
+  display: flex;
+  height: 70px;
+  width: 100%;
+  background-color: #F9C202;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.footer-content{
+  font: Bold 15px/39px Montserrat;
+  margin: 0px 10px 0px 0px;
+}
