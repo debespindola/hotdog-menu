@@ -1,1 +1,2 @@
-# desafio-pta Hotdog menu using simple html
+# Hotdog menu using simple html
+PTA Chalenge - CITi's selective process
